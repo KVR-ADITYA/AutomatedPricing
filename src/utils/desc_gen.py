@@ -4,7 +4,7 @@ import json
 
 # Function to generate random depreciation rate
 def generate_depreciation_rate():
-    return round(random.uniform(0.05, 0.3), 2)  # Depreciation rate between 5% and 30%
+    return round(random.uniform(0.05, 0.9), 2)  # Depreciation rate between 5% and 90%
 
 # Function to generate a random sold price based on original price and depreciation rate
 def generate_sold_price(original_price, depreciation_rate):
